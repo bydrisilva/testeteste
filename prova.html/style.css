@@ -1,0 +1,97 @@
+*{  
+    margin: 0;
+    padding: 0;
+   
+}
+
+
+header{
+    display: flex;
+    gap: 60px;
+    position: relative;
+    justify-content: space-between;
+}
+
+.branquinha {
+    position: fixed;
+    top: 0; 
+    left: 0;
+    right: 0;
+    z-index: 1000;}
+
+.cardápio{
+    width: 100px;
+    height: 100px;
+}
+
+.zoiudo{
+  top: 20px;
+  float: right;
+  z-index: 2;
+  position: absolute;
+}
+
+.waveroxa {
+    background: url('wave-background.jpg') no-repeat center center fixed;
+    height: 200px; 
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+ 
+}
+    
+.logo-container {
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    z-index: 2; 
+}
+
+.zoiudo {
+    max-width: 400px;
+    min-width: 90px; 
+}
+.foto1 {
+    max-width: 100%;
+
+}
+
+.table {
+   
+    --bs-table-bg: #c8a2ec;
+    --bs-table-color: #ffffff;
+}
+tbody, td, tfoot, th, thead, tr {
+    border-style: none;
+    border-width: 1px;
+}
+
+main .desconto {
+transition: transform 0.3 ease;
+}
+main .desconto:hover{
+    transform: scale(1.2);
+}
+main .ifood {
+    transition: transform 0.3 ease;
+}
+main .ifood:hover{
+        transform: scale(1.2);
+}
+
+header .acai img{
+    transition: transform 0.3 ease;
+
+}
+header .acai img:hover{
+    transform: scale(1.2);
+}
+header .cupuacu img{
+    transition: transform 0.3 ease;
+
+}
+header .cupuacu img:hover{
+    transform: scale(1.2);
+}
